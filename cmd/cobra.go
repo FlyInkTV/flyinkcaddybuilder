@@ -12,8 +12,8 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use: "xcaddy <args...>",
-	Long: "xcaddy is a custom Caddy builder for advanced users and plugin developers.\n" +
+	Use: "flyinkcaddybuilder <args...>",
+	Long: "FlyInk Caddy Builder is a custom Caddy builder for advanced users and plugin developers.\n" +
 		"The xcaddy command has two primary uses:\n" +
 		"- Compile custom caddy binaries\n" +
 		"- A replacement for `go run` while developing Caddy plugins\n" +

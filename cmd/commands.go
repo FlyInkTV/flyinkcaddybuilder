@@ -24,7 +24,7 @@ func init() {
 
 var versionCommand = &cobra.Command{
 	Use:   "version",
-	Short: "Prints xcaddy version",
+	Short: "Prints FlyInk Caddy Builder version",
 	RunE: func(cm *cobra.Command, args []string) error {
 		fmt.Println(xcaddyVersion())
 		return nil
